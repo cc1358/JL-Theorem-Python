@@ -23,7 +23,6 @@ class JLTheoremProver:
         
     Theory
     ------
-    Given Lemma 2 from user input:
     k ≥ (24 log n) / (3ε² - 2ε³)
     Probability of violating (1±ε) for any pair: F ≤ 2/n²
     Union bound over all pairs: Total failure probability ≤ 1 - 1/n
@@ -57,7 +56,7 @@ class JLTheoremProver:
 
     def fit_transform(self, X):
         """
-        Apply JL projection with lemma-exact dimension selection.
+        Apply JL projection with exact dimension selection.
         
         Theory
         ------
